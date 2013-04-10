@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+     <EditText android:id="@+id/edit_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hello world" />
+     
+     <Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:text="QUOTE"
+		android:id="@+id/my_button"/>
+   <!--    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
+      
+      <EditText
+		android:id="@+id/myEditText" 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/addItemHint" 
+		android:contentDescription="@string/addItemContentDescription"/> 
+	  <ListView
+		android:id="@+id/myListView"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"/> -->
+</LinearLayout>
